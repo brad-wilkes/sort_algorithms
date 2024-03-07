@@ -1,3 +1,15 @@
+# search algorithm
+Binary Search
+If the middle element is equal to the target value, the search is successful. If the middle element is greater than the target value, the search continues in the lower half of the list. If the middle element is less than the target value, the search continues in the upper half of the list. This process is repeated until the target value is found or until the search is narrowed down to an empty sub-list, indicating that the target value is not present in the original list.
+
+In the selected code, the function takes two arguments: an array (arr) and a target value (x). The function initializes two indices (low and high) that point to the beginning and end of the array, respectively. A mid index is also initialized to zero. The while loop continues until low is less than or equal to high.
+
+In each iteration of the loop, the mid index is calculated by dividing the difference between high and low by two. The middle element of the sub-list is then accessed using the mid index.
+
+If the middle element is less than the target value, low is incremented by one to skip the current element and continue searching in the lower half of the list. If the middle element is greater than the target value, high is decremented by one to skip the current element and continue searching in the upper half of the list.
+
+If the middle element is equal to the target value, the function returns the index of the middle element, indicating that the target value was found. If the search continues without finding the target value, the function returns -1, indicating that the target value was not found in the original list.
+
 # sort_algorithms
 Shaker Sort Basic
 
