@@ -23,7 +23,7 @@ The code then increments the variable start and decrements the variable end. The
 
 The function returns the sorted array.
 
-# shaker Sort (multiple passes)
+# shaker sort (multiple passes)
 
 Implements a variation of the shaker sort algorithm that uses two passes over the array to ensure that all elements are sorted
 
@@ -38,7 +38,7 @@ In the second pass, a for loop is used to iterate over all indices in the unsort
 After both passes are complete, the start and end indices are updated to reflect the new beginning and end of the unsorted portion of the array, and the process is repeated until the array is sorted.
 
 
-# shaker Sort With Tools
+# shaker sort with tools
 
 Implements the Shaker Sort algorithm with additional tools and features to make the sorting process more efficient.
 
