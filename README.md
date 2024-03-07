@@ -1,5 +1,5 @@
-# search algorithm
-Binary Search
+# binary search
+
 If the middle element is equal to the target value, the search is successful. If the middle element is greater than the target value, the search continues in the lower half of the list. If the middle element is less than the target value, the search continues in the upper half of the list. This process is repeated until the target value is found or until the search is narrowed down to an empty sub-list, indicating that the target value is not present in the original list.
 
 In the selected code, the function takes two arguments: an array (arr) and a target value (x). The function initializes two indices (low and high) that point to the beginning and end of the array, respectively. A mid index is also initialized to zero. The while loop continues until low is less than or equal to high.
@@ -10,10 +10,10 @@ If the middle element is less than the target value, low is incremented by one t
 
 If the middle element is equal to the target value, the function returns the index of the middle element, indicating that the target value was found. If the search continues without finding the target value, the function returns -1, indicating that the target value was not found in the original list.
 
-# sort_algorithms
-Shaker Sort Basic
 
-Shaker Sort algorithm. Shaker Sort is a comparison-based sorting algorithm that works by repeatedly swapping adjacent elements that are out of order. The algorithm starts by comparing the first two elements and swapping them if the first element is greater than the second element. It then compares the second and third elements, and swaps them if the second element is greater than the third element. This process continues until the entire array is sorted.
+# shaker sorting
+
+This algorithm starts by comparing the first two elements and swapping them if the first element is greater than the second element. It then compares the second and third elements, and swaps them if the second element is greater than the third element. This process continues until the entire array is sorted.
 
 The code starts by defining a variable n that represents the length of the input array arr. It then initializes two variables swapped and start to True and 0, respectively. The variable end is initialized to n - 1.
 
@@ -23,7 +23,8 @@ The code then increments the variable start and decrements the variable end. The
 
 The function returns the sorted array.
 
-Shaker Sort "any"
+Shaker Sort "any":
+
 Implements a variation of the shaker sort algorithm that uses two passes over the array to ensure that all elements are sorted
 
 The code starts by defining two indices, start and end, that track the beginning and end of the unsorted portion of the array. Then, a while loop is used to repeatedly perform two passes over the array.
