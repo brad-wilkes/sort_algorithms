@@ -1,4 +1,4 @@
-def shaker_sort_basic(arr):
+def shaker_sort(arr):
     n = len(arr)
     swapped = True
     start = 0
