@@ -53,3 +53,13 @@ The function continues to repeat the forward and backward passes until no more s
 The function also includes two helper functions: swap and any. The swap function swaps the elements at the given indices, and the any function returns True if any element in the array satisfies the given condition, and False otherwise.
 
 The function also includes a third helper function, groupby, which is used to group the array elements by a given key and iterate over the groups.
+
+# bubble sort
+
+This algorithm takes a mutable vector of integers (Vec<i32>) as input and returns the sorted vector. Variables n, swapped, start, and end are initialized to track the array length, whether swaps occurred, and the working range of the array.
+
+The while swapped loop iterates as long as swaps are made, indicating the array is not yet sorted.
+
+The first for loop compares adjacent pairs and swaps if the first element is larger. The swapped flag is set to true if any swap takes place. If swapped remains false after the forward pass, it means the array is sorted, and the loop terminates. The second for loop performs a similar operation in reverse order, for further refinement.
+
+The start and end variables are adjusted to avoid redundant comparisons as sorted elements settle into place.
