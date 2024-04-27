@@ -62,5 +62,11 @@ fn read_and_sort_file(file_path: &str) -> io::Result<Vec<i32>> {
     Ok(bubble_sort(numbers))
 }
 
+fn main() -> Result<()> {
+    let file_path = "data.txt"; // where is the file stored?
+    let sorted_numbers = read_and_sort_file(file_path)?;
 
+    println!("Sorted numbers: {:?}", sorted_numbers);
+    Ok(())
+}
 
